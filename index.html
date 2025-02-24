@@ -4,42 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="../portfolio/me.css">
 </head>
 <body>
- <div>
-        <h1>Poovizhi Nandakumar</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt= "" width = 100 length = 50>
-        <h4>I'm a passionate web developer who loves crafting seamless digital experiences.  I enjoy building scalable and efficient solutions. Beyond tech, I'm a nature lover, and a traveler who finds inspiration in romanticizing life. Whether it's developing innovative applications or sharing thoughts with family, I believe in blending creativity with logic to make an impact</h4>
-        <h3>Skills</h3>
-         <ul>
-      <li>MS office</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Power BI(beginner level)</li>
-      <li>Programming languages:C,Python</li>
-         </ul>
-<h3>Projects</h3>
-<p>Air Quality Prediction and Analysis on IBM <br>
-<a href="https://github.com/PoovizhiNandakumar/Poovizhi">View My Github Profile</a></p>
-
-<section>
-        <form action="get">
+    <body>
+        <header>
+            <h1>Poovizhi Nandakumar</h1>
+            <p style="text-align:center;">Contact : 6380673687 | poovizhi.nandakumar23@gmail.com</p>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer who loves crafting seamless digital experiences.  I enjoy building scalable and efficient solutions. Beyond tech, I'm a nature lover, and a traveler who finds inspiration in romanticizing life. Whether it's developing innovative applications or sharing thoughts with family, I believe in blending creativity with logic to make an impact</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                </div>
+                <div class="skill">
+                    <h3>Power BI (Beginner Level)</h3>
+                </div>
+                <div class="skill">
+                    <h3>Programming Languages<br> Python,C</h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Air Quality Prediction and Analysis on IBM</p>
+                    <a href="https://github.com/PoovizhiNandakumar/Poovizhi">View My Github Profile</a></p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
             <h2>Query Form</h2>
-            <label for="name" ><b>name</b></label>
-            <input type="text" id="name"> <br> <br>
-          
-            <label for="message"><b>msg</b></label>
-            <input type="text" id="msg"  required>
-            <br> <br>
-            <button type="submit">submit</button> 
-    </form>
-</section>
-<footer>
-       <p> Contact Me : 6380673687 <br>
-    via:poovizhi.nandakumar23@gmail.com</p>
-</footer>
-</div>
-    <script src="../hands on/script.js"></script>
+            <form>
+                <input type="text" placeholder="Your Name" id="name">
+                <input type="email" placeholder="Your Email" id="mail" required>
+                <input type="Your Query" id="msg" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+    </body>
+    </html>
+    
 </body>
 </html>
